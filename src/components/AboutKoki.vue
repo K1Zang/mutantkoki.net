@@ -9,8 +9,8 @@ document.addEventListener('scroll', (event) => {
 
 <template>
   <div>
-    <p class="mt-4 h-[100rem]">
-      <span class="md:text-[250px] text-[120px] md:leading-[5rem] leading-[2rem]">
+    <p>
+      <span class="md:text-[230px] text-[120px] md:leading-[5rem] leading-[2rem]">
         Mutant
         <span class="font-serif" :style="'color:' + kokiColor + ';'"> Koki </span>
       </span>

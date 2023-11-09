@@ -11,11 +11,11 @@ import {
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'Dashboard', href: '#' },
-  { name: 'Team', href: '#' },
-  { name: 'Projects', href: '#' },
-  { name: 'Calendar', href: '#' },
-  { name: 'Reports', href: '#' }
+  { name: 'Koki', href: '#' },
+  { name: 'Story', href: '#' },
+  { name: 'Advantages', href: '#' },
+  { name: 'Our Team', href: '#' },
+  { name: 'FAQ', href: '#' }
 ]
 </script>
 
@@ -30,11 +30,7 @@ const navigation = [
         <div class="flex h-16 items-center justify-between">
           <div class="flex items-center">
             <div class="flex-shrink-0">
-              <img
-                class="h-16 w-16 stroke-white fill-white"
-                src="./../assets/logo.svg"
-                alt="Your Company"
-              />
+              <img class="h-16 w-16 stroke-white fill-white" src="./../assets/logo.svg" />
             </div>
 
             <div class="hidden md:block">
@@ -47,7 +43,7 @@ const navigation = [
                     item.current
                       ? 'bg-neutral-900 text-white'
                       : 'text-white hover:bg-neutral-800 hover:text-white',
-                    'rounded-md px-3 py-2 text-sm   '
+                    ' px-3 py-2 text-sm   '
                   ]"
                   :aria-current="item.current ? 'page' : undefined"
                   >{{ item.name }}</a
@@ -59,7 +55,7 @@ const navigation = [
           <div class="-mr-2 flex md:hidden">
             <!-- Mobile menu button -->
             <DisclosureButton
-              class="relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-neutral-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+              class="relative inline-flex items-center justify-center p-2 text-white hover:bg-neutral-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
             >
               <span class="absolute -inset-0.5" />
               <span class="sr-only">Open main menu</span>
@@ -81,7 +77,7 @@ const navigation = [
               item.current
                 ? 'bg-neutral-900 text-white'
                 : 'text-white hover:bg-neutral-800 hover:text-white',
-              'block rounded-md px-3 py-2 text-base   '
+              'block  px-3 py-2 text-base   '
             ]"
             :aria-current="item.current ? 'page' : undefined"
             >{{ item.name }}</DisclosureButton
