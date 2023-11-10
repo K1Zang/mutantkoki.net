@@ -20,10 +20,10 @@ const navigation = [
 </script>
 
 <template>
-  <div class="min-h-full mt-12">
+  <div class="min-h-full mt-16">
     <Disclosure
       as="nav"
-      class="bg-neutral-700/20 fixed inset-0 h-fit backdrop-blur-xl border-b-2 border-black/30"
+      class="z-50 bg-black/60 fixed inset-0 h-fit backdrop-blur-xl border-b-2 border-black/30"
       v-slot="{ open }"
     >
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
