@@ -11,21 +11,9 @@ const props = defineProps({
     <div v-if="reverse" class="slider r_to_l">
       <div :class="(height ?? 'h-16') + ' slider_inner'">
         <img class="object-cover" src="./../assets/kokis-1.jpg" />
-        <img class="object-cover" src="./../assets/kokis-2.jpg" />
-        <img class="object-cover" src="./../assets/kokis-1.jpg" />
-        <img class="object-cover" src="./../assets/kokis-2.jpg" />
-        <img class="object-cover" src="./../assets/kokis-2.jpg" />
-        <img class="object-cover" src="./../assets/kokis-1.jpg" />
-        <img class="object-cover" src="./../assets/kokis-2.jpg" />
       </div>
       <div :class="(height ?? 'h-16') + ' slider_inner'">
         <img class="object-cover" src="./../assets/kokis-2.jpg" />
-        <img class="object-cover" src="./../assets/kokis-1.jpg" />
-        <img class="object-cover" src="./../assets/kokis-2.jpg" />
-        <img class="object-cover" src="./../assets/kokis-1.jpg" />
-        <img class="object-cover" src="./../assets/kokis-1.jpg" />
-        <img class="object-cover" src="./../assets/kokis-2.jpg" />
-        <img class="object-cover" src="./../assets/kokis-1.jpg" />
       </div>
     </div>
 
