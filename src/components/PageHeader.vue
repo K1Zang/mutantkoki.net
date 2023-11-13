@@ -1,21 +1,12 @@
 <script setup>
-import {
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems
-} from '@headlessui/vue'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
+import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'Koki', href: '#' },
-  { name: 'Story', href: '#' },
-  { name: 'Advantages', href: '#' },
-  { name: 'Our Team', href: '#' },
-  { name: 'FAQ', href: '#' }
+  { name: 'Advantages', href: '#advantages' },
+  { name: 'Road Map', href: '#road_map' },
+  { name: 'Our Team', href: '#team' },
+  { name: 'FAQ', href: '#faq' }
 ]
 </script>
 

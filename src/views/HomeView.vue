@@ -7,7 +7,6 @@ import TezliveToken from '../components/TezliveToken.vue'
 import AboutKoki from '../components/AboutKoki.vue'
 import SlidingKokies from '../components/SlidingKokies.vue'
 import KokiAdvantages from '../components/KokiAdvantages.vue'
-import Line from '../components/Line.vue'
 import KokiStory from '../components/KokiStory.vue'
 import FreqAskeQues from '../components/FreqAskeQues.vue'
 </script>
@@ -24,15 +23,15 @@ import FreqAskeQues from '../components/FreqAskeQues.vue'
 
       <KokiStory class="md:pb-0 pb-16" />
 
-      <KokiAdvantages class="py-16 pb-32 w-full" />
+      <KokiAdvantages id="advantages" class="py-16 pb-32 w-full" />
 
       <TezliveToken />
 
-      <RoadMap class="py-24 w-full" />
+      <RoadMap id="road_map" class="py-24 w-full" />
 
-      <TeamIntro class="w-full my-24" />
+      <TeamIntro id="team" class="w-full my-24" />
 
-      <FreqAskeQues class="w-full py-24" />
+      <FreqAskeQues id="faq" class="w-full py-24" />
 
       <Footer class="w-full pt-24" />
     </section>
