@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+const props = defineProps({
   name: String,
   twitter: String,
   description: String,
@@ -11,10 +11,7 @@ defineProps({
   <div class="m-4 p-4 w-96 bg-white/10 flex justify-center items-center">
     <div class="text-left ml-4 flex flex-col space-y-4 leading-6">
       <div class="flex items-center space-x-4">
-        <img
-          class="mt-4 bg-white/10 w-24 h-24 object-cover rounded-full"
-          :src="`/src/assets/pic-${name}.jpg`"
-        />
+        <slot />
 
         <div>
           <h1 class="text-xl">
