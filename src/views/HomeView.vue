@@ -1,5 +1,7 @@
 <script setup>
 import PageHeader from '../components/PageHeader.vue'
+import Footer from '../components/Footer.vue'
+import RoadMap from '../components/RoadMap.vue'
 import TeamIntro from '../components/TeamIntro.vue'
 import TezliveToken from '../components/TezliveToken.vue'
 import AboutKoki from '../components/AboutKoki.vue'
@@ -7,6 +9,7 @@ import SlidingKokies from '../components/SlidingKokies.vue'
 import KokiAdvantages from '../components/KokiAdvantages.vue'
 import Line from '../components/Line.vue'
 import KokiStory from '../components/KokiStory.vue'
+import FreqAskeQues from '../components/FreqAskeQues.vue'
 </script>
 
 <template>
@@ -25,8 +28,13 @@ import KokiStory from '../components/KokiStory.vue'
 
       <TezliveToken />
 
-      <TeamIntro class="w-full" />
-      <!-- <Line /> -->
+      <RoadMap class="py-24 w-full" />
+
+      <TeamIntro class="w-full my-24" />
+
+      <FreqAskeQues class="w-full py-24" />
+
+      <Footer class="w-full pt-24" />
     </section>
   </main>
 </template>
