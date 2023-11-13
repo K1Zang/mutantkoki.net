@@ -19,7 +19,7 @@ import FreqAskeQues from '../components/FreqAskeQues.vue'
     <section class="text-justify m-auto flex flex-col items-center justify-center">
       <AboutKoki class="my-40 place-self-center" />
 
-      <SlidingKokies reverse height="h-96" class="mt-[-2rem] md:block" />
+      <SlidingKokies reverse height="md:h-96" class="mt-[-2rem] md:block" />
 
       <KokiStory class="md:pb-0 pb-16" />
 
