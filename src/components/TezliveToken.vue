@@ -3,13 +3,17 @@
 <template>
   <div>
     <div class="md:grid grid-cols-4">
-      <video
+      <!-- <video
         class="order-last col-span-3 md:w-full md:h-full md:object-cover"
         src="./../assets/tezlive-token.mp4"
         type="video/mp4"
         autoplay
         muted
         loop
+      /> -->
+      <img
+        class="order-last col-span-3 md:w-full md:h-full md:object-cover"
+        src="./../assets/tezlive-token.gif"
       />
       <div class="p-4 col-span-1 flex flex-col justify-evenly">
         <p class="my-4 text-center text-4xl leading-[4rem] font-serif">Tezlive Token</p>
