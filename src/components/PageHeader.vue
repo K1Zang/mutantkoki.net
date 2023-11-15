@@ -49,8 +49,11 @@ const navigation = [
               class="relative inline-flex items-center justify-center p-2 text-white hover:bg-neutral-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
             >
               <span class="absolute -inset-0.5" />
+
               <span class="sr-only">Open main menu</span>
+
               <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
+
               <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
             </DisclosureButton>
           </div>
