@@ -14,7 +14,7 @@ const navigation = [
   <div class="min-h-full mt-16">
     <Disclosure
       as="nav"
-      class="z-50 bg-black/60 fixed inset-0 h-fit backdrop-blur-xl border-b-2 border-black/30"
+      class="w-[100vw] z-50 bg-black/60 fixed inset-0 h-fit backdrop-blur-xl border-b-2 border-black/30"
       v-slot="{ open }"
     >
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

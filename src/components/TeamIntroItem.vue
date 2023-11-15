@@ -14,11 +14,11 @@ const props = defineProps({
         <slot />
 
         <div>
-          <h1 class="text-xl">
+          <h1 class="md:block flex md:flex-row flex-col text-xl">
             <span class="capitalize text-xl">
               {{ name }}
             </span>
-            <span class="mx-4 text-neutral-400 text-base">{{ title }}</span>
+            <span class="md:mx-4 md:mt-0 mt-2 text-neutral-400 text-base">{{ title }}</span>
           </h1>
 
           <a v-if="twitter" :href="twitter">

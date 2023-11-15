@@ -9,7 +9,7 @@ import TeamIntroItem from './TeamIntroItem.vue'
     <div class="flex justify-center flex-wrap">
       <TeamIntroItem
         name="yunus"
-        title="Co-founde"
+        title="Co-founder"
         description="4 years of work experience in the field of design, consultancy in the NFT field for the last 2 years."
         twitter="https://twitter.com/TezinYunus843"
       >

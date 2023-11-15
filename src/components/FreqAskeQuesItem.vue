@@ -20,7 +20,7 @@ let isShowAnswer = ref(false)
 
     <Line v-show="isShowAnswer" class="" />
 
-    <p class="p-6 bg-black/50 text-neutral-400" v-show="isShowAnswer">{{ answer }}</p>
+    <p class="text-left p-6 bg-black/50 text-neutral-400" v-show="isShowAnswer">{{ answer }}</p>
 
     <Line class="" />
   </div>
